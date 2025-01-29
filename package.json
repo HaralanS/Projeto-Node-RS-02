@@ -6,6 +6,7 @@
     "node": ">=20"
   },
 "scripts": {
+  "start": "node build/server.js",
   "test": "vitest",
   "dev": "tsx watch src/server.ts",
   "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
